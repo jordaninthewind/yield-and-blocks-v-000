@@ -7,7 +7,7 @@ def hello_t(array=[])
     end
     return array
   else
-    puts "Hey! No Block was given!"
+    print "Hey! No Block was given!"
   end
 end
 
