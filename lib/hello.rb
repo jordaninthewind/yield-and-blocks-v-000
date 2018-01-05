@@ -8,6 +8,7 @@ def hello_t(array=[])
     return array
   else
     puts "No Block was given!"
+  end
 end
 
 # call your method here!
