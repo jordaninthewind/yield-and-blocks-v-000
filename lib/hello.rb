@@ -1,4 +1,4 @@
-def hello_t(array=[])
+def hello_t(array)
   if block_given?
     i = 0
     while i < array.length
@@ -7,7 +7,7 @@ def hello_t(array=[])
     end
     return array
   else
-    p "Hey! No Block was given!"
+    puts "Hey! No Block was given!"
   end
 end
 
